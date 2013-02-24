@@ -3,8 +3,8 @@
     <string name="unit_GRAM">g</string>
     <string name="unit_KILO_GRAM">kg</string>
     <string name="unit_UNIT"/>
-    <string name="unit_SPOON_COFFE">cullereta de cafè</string>
-    <string name="unit_SPOON_SOUP">cullerada sopera</string>
+    <string name="unit_SPOON_COFFE">cullereta de cafè de</string>
+    <string name="unit_SPOON_SOUP">cullerada sopera de </string>
     <string name="unit_GLASS">got</string>
     <string name="unit_CUP_COFFE">tassa de cafè</string>
     <string name="unit_CUP_TEA">tassa de te</string>
