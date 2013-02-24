@@ -1,6 +1,7 @@
 package cat.pilos.xupxup.adapters;
 
 import cat.pilos.xupxup.model.RecIngredient;
+import cat.pilos.xupxup.utils.converters.IngUnitsConverter;
 
 import cat.pilos.xupxup.R;
 
@@ -14,9 +15,12 @@ public class IngredientItemView extends LinearLayout {
     private TextView tv_ing_quantity;
     private TextView tv_ing_name;
     private TextView tv_ing_unit;
+    private IngUnitsConverter converter;
 
-    public IngredientItemView(Context context) {
+    public IngredientItemView(Context context, IngUnitsConverter converter) {
         super(context);
+        
+        this.converter=converter;
         
         LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         layoutInflater.inflate(R.layout.recipe_ing_item, this);
@@ -32,7 +36,7 @@ public class IngredientItemView extends LinearLayout {
     	
         tv_ing_quantity.setText(""+ingredient.quantity);
         tv_ing_name.setText(ingredient.ingredient.name);
-        tv_ing_unit.setText(ingredient.unit);
+        tv_ing_unit.setText(converter.getUnitTranslation(ingredient.unit));
         
     }
 }

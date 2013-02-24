@@ -870,13 +870,13 @@ containing a value of this type.
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int textView1=0x7f04002e;
-        public static final int tv_ing_name=0x7f040037;
-        public static final int tv_ing_quantity=0x7f040035;
-        public static final int tv_ing_unit=0x7f040036;
-        public static final int tv_rec_desc=0x7f040032;
-        public static final int tv_rec_prepTime=0x7f040034;
-        public static final int tv_rec_servings=0x7f040033;
-        public static final int tv_rec_title=0x7f040031;
+        public static final int tv_ing_name=0x7f040033;
+        public static final int tv_ing_quantity=0x7f040031;
+        public static final int tv_ing_unit=0x7f040032;
+        public static final int tv_rec_desc=0x7f040035;
+        public static final int tv_rec_prepTime=0x7f040037;
+        public static final int tv_rec_servings=0x7f040036;
+        public static final int tv_rec_title=0x7f040034;
         public static final int tv_reciept_num_servings=0x7f04002a;
         public static final int tv_reciept_time=0x7f04002c;
         public static final int tv_step_num=0x7f040038;
@@ -951,16 +951,24 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
-        public static final int app_name=0x7f09000a;
-        public static final int hello_world=0x7f09000b;
-        public static final int menu_settings=0x7f09000c;
-        public static final int rec_menu_add_shopping_list=0x7f090011;
-        public static final int rec_menu_change_servings=0x7f090012;
-        public static final int rec_menu_share=0x7f090013;
-        public static final int reciept_ingredients_title=0x7f09000f;
-        public static final int reciept_num_servings=0x7f09000e;
-        public static final int reciept_steps_title=0x7f090010;
-        public static final int reciept_time_prepare=0x7f09000d;
+        public static final int app_name=0x7f090012;
+        public static final int hello_world=0x7f090013;
+        public static final int menu_settings=0x7f090014;
+        public static final int rec_menu_add_shopping_list=0x7f090019;
+        public static final int rec_menu_change_servings=0x7f09001a;
+        public static final int rec_menu_share=0x7f09001b;
+        public static final int reciept_ingredients_title=0x7f090017;
+        public static final int reciept_num_servings=0x7f090016;
+        public static final int reciept_steps_title=0x7f090018;
+        public static final int reciept_time_prepare=0x7f090015;
+        public static final int unit_CUP_COFFE=0x7f090010;
+        public static final int unit_CUP_TEA=0x7f090011;
+        public static final int unit_GLASS=0x7f09000f;
+        public static final int unit_GRAM=0x7f09000a;
+        public static final int unit_KILO_GRAM=0x7f09000b;
+        public static final int unit_SPOON_COFFE=0x7f09000d;
+        public static final int unit_SPOON_SOUP=0x7f09000e;
+        public static final int unit_UNIT=0x7f09000c;
     }
     public static final class style {
         public static final int DialogWindowTitle_Sherlock=0x7f0a0033;

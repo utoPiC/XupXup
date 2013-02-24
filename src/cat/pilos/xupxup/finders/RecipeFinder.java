@@ -7,7 +7,9 @@ import android.content.Context;
 import android.database.Cursor;
 
 import cat.pilos.xupxup.databases.RecieptDBAdapter;
+import cat.pilos.xupxup.model.RecIngredient;
 import cat.pilos.xupxup.model.Recipe;
+import cat.pilos.xupxup.utils.IngUnits;
 
 public class RecipeFinder {
 	
@@ -138,20 +140,20 @@ public class RecipeFinder {
 		recipeDB=new RecieptDBAdapter(baseContext);
 		recipeDB.open();
 			
-			recipeDB.insertRecipeIng(1, "carbassa cuita", 250,"g",-1);
-			recipeDB.insertRecipeIng(1, "farina de força", 200, "g",-1);
+			recipeDB.insertRecipeIng(1, "carbassa cuita", 250,IngUnits.GRAM,-1);
+			recipeDB.insertRecipeIng(1, "farina de força", 200, IngUnits.GRAM,-1);
 			recipeDB.insertRecipeIng(1, "sobre de llevat de forner",1,"unit",-1);
 			recipeDB.insertRecipeIng(1, "sucre",1, "soupSpoon",-1);
-			recipeDB.insertRecipeIng(1, "aigua",50,"g",-1);
+			recipeDB.insertRecipeIng(1, "aigua",50,IngUnits.GRAM,-1);
 			recipeDB.insertRecipeIng(1, "rovell d'ou",1,"unit",-1);
 
-			recipeDB.insertRecipeIng(2, "mantega",150,"g",-1);
-			recipeDB.insertRecipeIng(2, "xocolata negra",90,"g",-1);
-			recipeDB.insertRecipeIng(2, "sucre",300,"g",-1);
-			recipeDB.insertRecipeIng(2, "farina",150,"g",-1);
-			recipeDB.insertRecipeIng(2, "sobre llevat (mig)",1,"g",-1);
+			recipeDB.insertRecipeIng(2, "mantega",150,IngUnits.GRAM,-1);
+			recipeDB.insertRecipeIng(2, "xocolata negra",90,IngUnits.GRAM,-1);
+			recipeDB.insertRecipeIng(2, "sucre",300,IngUnits.GRAM,-1);
+			recipeDB.insertRecipeIng(2, "farina",150,IngUnits.GRAM,-1);
+			recipeDB.insertRecipeIng(2, "sobre llevat (mig)",1,IngUnits.GRAM,-1);
 			recipeDB.insertRecipeIng(2, "extracte de vainilla",1,"coffeSpoon",-1);
-			recipeDB.insertRecipeIng(2, "nous",150,"g",-1);
+			recipeDB.insertRecipeIng(2, "nous",150,IngUnits.GRAM,-1);
 			recipeDB.insertRecipeIng(2, "ous",3,"unit",-1);
 
 			

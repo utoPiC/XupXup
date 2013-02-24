@@ -5,24 +5,27 @@
     style="@style/ll_rec_ingr_row">
 
     <TextView
-        android:id="@+id/tv_ing_quantity"
+        android:id="@+id/tv_rec_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         style="@style/ingr_text" />
 
     <TextView
-        android:id="@+id/tv_ing_unit"
+        android:id="@+id/tv_rec_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         style="@style/ingr_text" />
 
     <TextView
-        android:id="@+id/tv_ing_name"
+        android:id="@+id/tv_rec_servings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        style="@style/ingr_text" />
+    
+        <TextView
+        android:id="@+id/tv_rec_prepTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         style="@style/ingr_text" />
 
 </LinearLayout>

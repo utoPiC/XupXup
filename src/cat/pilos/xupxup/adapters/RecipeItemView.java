@@ -22,7 +22,7 @@ public class RecipeItemView extends LinearLayout {
         super(context);
         
         LayoutInflater layoutInflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        layoutInflater.inflate(R.layout.recipe_ing_item, this);
+        layoutInflater.inflate(R.layout.recipe_item, this);
         
         tv_rec_title=(TextView) findViewById(R.id.tv_rec_title);
         tv_rec_desc=(TextView) findViewById(R.id.tv_rec_desc);

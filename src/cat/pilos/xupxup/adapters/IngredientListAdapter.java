@@ -4,6 +4,7 @@ import java.util.List;
 
 import cat.pilos.xupxup.finders.RecipieIngFinder;
 import cat.pilos.xupxup.model.RecIngredient;
+import cat.pilos.xupxup.utils.converters.IngUnitsConverter;
 
 import android.content.Context;
 import android.view.View;
@@ -17,9 +18,8 @@ public class IngredientListAdapter extends BaseAdapter {
     private List<RecIngredient> ingredients;
     
     private RecipieIngFinder recIngFinder;
-    
     private Context context;
-
+    private IngUnitsConverter converter;
 
     public IngredientListAdapter(Context context, long recipeId){
 		
@@ -28,6 +28,7 @@ public class IngredientListAdapter extends BaseAdapter {
     	recIngFinder=new RecipieIngFinder(context);
     	
     	ingredients=recIngFinder.getAllRecipeIng(recipeId);
+    	converter=new IngUnitsConverter(context);
     	
     	
     }
@@ -39,7 +40,7 @@ public class IngredientListAdapter extends BaseAdapter {
         
         if (convertView == null) {
         	
-            personItemView = new IngredientItemView(context);
+            personItemView = new IngredientItemView(context,converter);
             
         } 
         else {
