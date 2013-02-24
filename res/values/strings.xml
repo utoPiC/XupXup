@@ -1,7 +1,16 @@
 <resources>
 
 	<string name="app_name">XupXup</string>
-	<string name="hello_world">Hello world!</string>
+	<string name="hello_world">Aquí hi haurà una graella amb les fotos de les receptes!</string>
 	<string name="menu_settings">Settings</string>
-
+	
+	<string name="reciept_time_prepare">%1d minuts</string>
+	<string name="reciept_num_servings">%1d persones</string>
+	<string name="reciept_ingredients_title">Ingredients</string>
+	<string name="reciept_steps_title">Instruccions</string>
+	
+	<string name="rec_menu_add_shopping_list">Afegir llista de compra</string>
+	<string name="rec_menu_change_servings">Canviar nombre de persones</string>
+	<string name="rec_menu_share">Compartir recepta</string>
+			
 </resources>

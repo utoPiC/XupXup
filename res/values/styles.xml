@@ -1,5 +1,64 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-			<style name="AppTheme" parent="@style/Theme.Sherlock.Light" />
+   <!--  <style name="SocarratTheme" parent="@style/Theme.Sherlock.Light" /> -->
+
+    
+    <!--  set default appearances -->
+		
+<!--  	<item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+	<item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+		
+	<item name="android:textColorPrimary">#e38f35</item>
+	<item name="android:textColorSecondary">#00FF00</item>
+	<item name="android:textColorTertiary">#0000FF</item>-->
+
+    
+     <style name="ingr_text" parent="android:style/Widget.TextView">
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    
+    <style name="ll_main_reciept_info">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#e38f35</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+    
+	<style name="ll_rec_ingr_row">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">4dp</item>       
+    </style>
+    
+     <style name="OrangeText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#e38f35</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+       	<item name="android:layout_marginRight">5dp</item>
+    </style>
+    
+    <style name="OrangeTextTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/emphasis</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+     <style name="sectionHeader" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:drawableBottom">@drawable/section_header</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/emphasis</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+         
+   	<style name="ImageViewIcon" parent="@android:style/Widget.ImageButton">
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:gravity">center</item>
+    </style>
 
 </resources>

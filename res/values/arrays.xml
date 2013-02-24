@@ -4,6 +4,7 @@
 	<string-array name="locations">
 		<item>Inici</item>
 		<item>Cercar recepta</item>
+		<item>Veure recepta</item>
 		<item>Preparar menú</item>
 		<item>Quant a</item>
 	</string-array>
