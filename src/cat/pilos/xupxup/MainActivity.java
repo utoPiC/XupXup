@@ -9,7 +9,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import cat.pilos.xupxup.adapters.RecipeListAdapter;
-import cat.pilos.xupxup.views.reciept.RecipeActivity;
+import cat.pilos.xupxup.views.recipe.RecipeViewActivity;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.OnNavigationListener;
@@ -64,9 +64,9 @@ public class MainActivity extends SherlockActivity implements OnNavigationListen
 		
     	public void onItemClick(android.widget.AdapterView<?> parent, View v, int position, long id) {
     		
-				Intent intent = new Intent(v.getContext(), RecipeActivity.class);
+				Intent intent = new Intent(v.getContext(), RecipeViewActivity.class);
 
-		        intent.putExtra(RecipeActivity.RECIPE_ID_EXTRA, recipeAdapter.getItem(position).recipeId);
+		        intent.putExtra(RecipeViewActivity.RECIPE_ID_EXTRA, recipeAdapter.getItem(position).recipeId);
 
 		        startActivity(intent);
 		 

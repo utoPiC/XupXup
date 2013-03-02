@@ -1,5 +1,4 @@
 <resources>
-
 	<string name="app_name">XupXup</string>
 	<string name="hello_world">Aquí hi haurà una graella amb les fotos de les receptes!</string>
 	<string name="menu_settings">Settings</string>
@@ -12,5 +11,16 @@
 	<string name="rec_menu_add_shopping_list">Afegir llista de compra</string>
 	<string name="rec_menu_change_servings">Canviar nombre de persones</string>
 	<string name="rec_menu_share">Compartir recepta</string>
+	<string name="recipeDesc">Els bunyols de carbassa són uns dolços tradicionals de València que es 
+	    fan en època de falles. Es venen al carrer (com els xurros aquí) i es prenen calents, sols o 
+	    amb una mica de xocolata calenta per sobre. Tot i que les falles ja han passat, em vaig quedar 
+	    amb les ganes de fer-ne. M’encanten els dolços arrelats a les nostres tradicions! El més difícil 
+	    de tot és agafar la pràctica per donar la forma típica del bunyol amb el forat al mig: la massa és 
+	    terriblement enganxosa i el truco està en agafar una mica de massa amb una mà i amb l’altra pessigar-la 
+	    amb els dits índex i polze fins a foradar-la. Per evitar que s’enganxi, cal mullar-se els dits 
+	    cada vegada que es fa un bunyol; va molt bé tenir un bol ple d’aigua al costat per anar sucant els dits. 
+	    Tot i que el primer bunyol queda com un bunyol ;-) aviat se li agafa la pràctica!
+	    
+	</string>
 			
 </resources>

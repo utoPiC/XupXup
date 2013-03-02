@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="emphasis">#e38f35</color>
+    <color name="background1">#f0e8d1</color>
     <color name="bg_gray">#f0e8d1</color>
 </resources>

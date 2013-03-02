@@ -20,6 +20,8 @@ public class RecipeFinder {
 	public RecipeFinder(Context baseContext){
 		
 		this.baseContext=baseContext;
+		//insertSampleRecipe();
+		//insertSampleRecipeSteps();
 		//insertSampleRecipeIng();
 				
 	}

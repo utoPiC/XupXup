@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
    <!--  <style name="SocarratTheme" parent="@style/Theme.Sherlock.Light" /> -->
 
@@ -12,7 +12,12 @@
 	<item name="android:textColorSecondary">#00FF00</item>
 	<item name="android:textColorTertiary">#0000FF</item>-->
 
+	<style name="StyledIndicators" parent="@style/Theme.SocarratTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
     
+          
      <style name="ingr_text" parent="android:style/Widget.TextView">
         <item name="android:layout_marginRight">8dp</item>
     </style>
@@ -45,12 +50,14 @@
         <item name="android:textSize">12sp</item>
     </style>
     
+
+    
      <style name="sectionHeader" parent="android:Widget.Holo.Light.TextView">
         <item name="android:drawableBottom">@drawable/section_header</item>
         <item name="android:drawablePadding">4dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:paddingLeft">4dp</item>
-        <item name="android:textAllCaps">true</item>
+        <!--  <item name="android:textAllCaps">true</item>-->
         <item name="android:textColor">@color/emphasis</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginLeft">5dp</item>
@@ -59,6 +66,32 @@
    	<style name="ImageViewIcon" parent="@android:style/Widget.ImageButton">
 		<item name="android:layout_margin">5dp</item>
 		<item name="android:gravity">center</item>
+    </style>
+   
+      <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textSize">16sp</item>
+       <!--   <item name="android:divider">@drawable/custom_tab_indicator_divider</item>-->
+      <!--<item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>-->
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
     </style>
 
 </resources>

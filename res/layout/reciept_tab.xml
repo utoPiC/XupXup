@@ -39,7 +39,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+  <!--  <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
@@ -51,9 +51,23 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/bunyols_sample" />
 
-    </LinearLayout>
+    </LinearLayout> --> 
 
-    <LinearLayout
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/indicator"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        style="@style/StyledIndicators"
+        />
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    
+   <!--  <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
@@ -71,8 +85,8 @@
             android:layout_height="wrap_content" >
         </ListView>
 
-    </LinearLayout>
-    
+    </LinearLayout> -->
+    <!-- 
      <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,12 +99,14 @@
         android:text="@string/reciept_steps_title"
         style="@style/sectionHeader" />
 
-        <ListView
-            android:id="@+id/lv_steps_list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </ListView>
 
-    </LinearLayout>
+		 <fragment android:name="cat.pilos.xupxup.views.reciept.RecipeStepsFragment"
+            android:id="@+id/steps_fragment"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+		
+
+    </LinearLayout>-->
 
 </LinearLayout>
